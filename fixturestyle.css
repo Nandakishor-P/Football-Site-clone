@@ -1,0 +1,95 @@
+/* General body style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centered image logo */
+.center {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Header styling */
+h1 {
+    text-align: center;
+    color: white; /* Chelsea's blue color */
+    font-size: 50px;
+    margin-top: auto;
+    background-color: #005ca3;
+}
+
+/* Navigation bar styles */
+/* Navigation bar styles */
+nav {
+    background-color: #005ca3; /* Chelsea blue */
+    overflow: hidden;
+    border-bottom: 2px solid #fff; /* White bottom border for distinction */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Horizontally center the items */
+    align-items: center; /* Vertically center the items */
+    height: 60px; /* Consistent height for navbar */
+}
+
+nav ul li {
+    margin: 0 15px; /* Adds space between the nav items */
+}
+
+nav ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold; /* Bold text */
+    font-size: 1.2em; /* Slightly larger font size */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+
+
+/* Section styling */
+section#fixtures {
+    margin: 20px auto;
+    width: 80%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #005ca3;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+

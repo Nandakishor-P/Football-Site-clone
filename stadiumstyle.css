@@ -1,0 +1,102 @@
+/* General body style */
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #1c1c1c;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centered image logo */
+.center {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Header styling */
+h1 {
+    text-align: center;
+    color: #4caf50; /* A bright green color */
+    font-size: 3.5em;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #333; /* Darker gray for navbar */
+    border-bottom: 1px solid #4caf50; /* Green border at the bottom */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+nav ul li {
+    margin: 0 7px;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: #e0e0e0; /* Light gray text */
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+
+/* Section styles */
+section#stadiums {
+    margin: 40px auto;
+    width: 85%;
+    background-color: #292929;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #4caf50; /* Green text for section headings */
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Image row styling */
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.image-container {
+    width: 48%;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 4px solid #4caf50; /* Green border below images */
+}
+
+.image-container p {
+    text-align: center;
+    padding: 15px;
+    font-size: 1.1em;
+    color: #e0e0e0;
+}
+
+
+
+
